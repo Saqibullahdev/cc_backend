@@ -210,7 +210,7 @@ app.get("/api/user-accounts", async (req, res) => {
 app.get("/", (req, res) => {
   res.json({ status: "ok" , message: "Welcome to the Ayrshare API" });
 });
-const PORT = env.PORT || 3001;
+const PORT = env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
